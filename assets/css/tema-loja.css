@@ -1,0 +1,160 @@
+/* styles.css */
+
+html {
+    --c_general_main: #888888;
+    --c_general_text1: #000000;
+    --c_general_text2: #000000;
+    --c_general_text_inverted: #ffffff;
+    --c_general_secondary: #000000;
+    --c_contrast_and_button: #000000;
+
+    --bg_general: #ffffff;
+    --c_general_details: #f6f6f6;
+    --c_general_background: #ebe5f1;
+    --c_general_inverted: #ffffff;
+
+    --c_header_bg: #000000;
+    --c_header_text_main: #ffffff;
+    --c_header_text_secondary: #000000;
+    --c_header_icon: #ffffff;
+    --c_header_cart: #f0505c;
+    --c_header_maior: #141414;
+    --c_bg_modal_login: #ffffff;
+    --bg_header_icon_search: #000000;
+
+
+    --c_btn_geral: #6e6e6e;
+    --c_btn_text_geral: #ffffff;
+    --bg_button_entrar: #6e6e6e;
+    --c_button_entrar: #ffffff;
+    --c_button_cadastrar_sair: #000000;
+    --bg_button_cadastrar: #ffffff;
+    --c_button_cadastrar: ;
+    --c_button_cadastrar_border: #c9c5c5;
+    --c_regua_tittle: #000000;
+    --c_regua_subtittle: #000000;
+    --c_frete_bg_input: #f6f6f6;
+    --c_frete_txt_input: #000000;
+
+    --c_title_timer_promo: #030303;
+    --c_timer_promo: #000000;
+    --bg_timer_promo: #6e6e6e;
+    --c_relogio_timer: #000000;
+
+    --c_footer_bg: #000000;
+    --c_footer_title: #ffffff;
+    --c_footer_text: #ffffff;
+    --c_footer_icon: ;
+    --c_footer_details_bg: ;
+    --bg_footer_icons: #ffffff;
+    --c_footer_txt-hover: #fcfcfc;
+    --bg_footer_icons_in: #000000;
+    --c_footer_logo_effect: ;
+
+    --c_alert_error: #ffffff;
+    --c_alert_error_bg: #f0505c;
+
+    --bg_vitrine_especial: #363636;
+    --c_vitrine_especial: #000000;
+    --bg_card_vitrine_especial: #ffffff;
+    --bg_card_vitrine_especial_hover: ;
+    --c_vitrine_especial_hover: #000000;
+    --c_parcela_vitrine_especial: #6e6e6e;
+    --c_parcela_vitrine_especial_hover: ;
+    --c_preco_vitrine: #6e6e6e;
+    --c_pagFrom_vitrine: #6e6e6e;
+    --c_vitrine_especial_preco: #6e6e6e;
+    --c_vitrine_especial_preco_hover: ;
+    --c_vitrine_especial_tittle: #ffffff;
+    --c_vitrine_especial_subtittle: #ffffff;
+
+    --c_vitrine_tittle: #000000;
+    --c_vitrine_subtittle: #000000;
+    --c_vitrine_risco: #6e6e6e;
+    --c_vitrine_risco_especial: #6e6e6e;
+    --bg_vitrine_all: #ffffff;
+    --c_prev_nex_btn: #000000;
+
+    --c_vitrine_duplo_tittle: ;
+    --c_vitrine_duplo_subtittle: ;
+    --c_vitrine_duplo_desc: ;
+    --bg_vitrine_duplo_btn: ;
+    --bg_vitrine_duplo_txt: ;
+
+    --c_bord_product: #e1e1e1;
+    --c_tittle_product: #000000;
+    --c_price_product: #6e6e6e;
+    --c_pagsForm_product: #6e6e6e;
+
+    --bg_btn_compra: #585858;
+    --bg_btn_compra_hover: #116e2b;
+
+    --c_vitrine: #000000;
+    --c_vitrine_hover: ;
+    --c_parcela_vitrine: ;
+    --c_parcela_vitrine_hover: ;
+    --bg_botao_vitrine_sem_hover: #4b4b4b;
+    --bg_botao_vitrine_hover: #505050;
+    --c_botao_vitrine_sem_hover: #ffffff;
+    --c_botao_vitrine_com_hover: #ffffff;
+
+    --c_bg_scroll: #000000;
+
+    --bg_selos_destaque: #000000;
+    --bg_selos_desconto: #f0505c;
+    --bg_selos_lancamento: #c5c5c5;
+    --bg_selos_frete: #515151;
+
+    --c_regua_superior_bg: #a7a7a7;
+    --c_regua_inferior_bg: ;
+    --ct_regua_superior: #ffffff;
+    --ct_regua_inferior: ;
+
+    --c_title_top_blog: #000000;
+    --c_title_bottom_blog: #000000;
+    --c_title_card_blog: #000000;
+    --bg_button_news_blog: #bdbdbd;
+
+    --title_top_yt: Inscreva-se;
+    --title_bottom_yt: JÁ CONHECE O NOSSO CANAL NO YOUTUBE?;
+    --link_video: ;
+
+        --bg_button_calculate: #6e6e6e;
+    --bg_button_calculate_hover: #2b2b2b;
+
+    --c_borda_top_categorias_card: #00ffd8;
+
+    --bg_header_search: #f8f8f8;
+    --c_header_txt_search: #000000;
+    --bg_header_last_category: #6e6e6e;
+    --bg_header_last_category_hover: #858288;
+    --c_txt_header_last_category: #ffffff;
+    --c_logintxt_hover_header: #6e6e6e;
+    --c_txt_cart_quantity: #ffffff;
+    --c_link_hover_menu: #000000;
+    --c_link_normal_menu: #ffffff;
+    --bg_link_hover_menu: #8d8d8d;
+    --bg_cart_modal: #ffffff;
+    --color_box_product: #000000;
+    --bg_btn_fechar_pedido: #777777;
+    --c_btn_fechar_pedido: #ffffff;
+
+    --bg_newsletter: #6e6e6e;
+    --c_container_newsletter: #ffffff;
+    --bg_button_send_newsletter: #f0505c;
+    --bg_button_send_newsletter_hover: #e74854;
+    --c_button_send_newsletter_hover: #ffffff;
+    --c_button_send_newsletter: #ffffff;
+    --c_email_txt_newsletter: #000000;
+    --c_email_input_newsletter: #ffffff;
+
+    --bg_bullet_carrousel: #6e6e6e;
+
+    --c_cupom_bg: #6e6e6e;
+    --c_cupom_tittle: #ffffff;
+    --c_cupom_subtittle: #000000;
+
+    --meu-content: +;
+
+    --arrow_select: url("data:image/svg+xml,%3Csvg fill='%23' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 284.929 284.929'%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z' /%3E%3C/svg%3E%0A");
+}
